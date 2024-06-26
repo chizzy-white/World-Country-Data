@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: #282c34;
+  padding: 10px 0;
+  /* margin-left:-20%;
+    margin-right: -20%;
+    margin-top: -0.6%; */
+}
+.wrapper1 {
+  width: 90%;
+  margin: 0 auto;
+}
+.flex-container1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  padding-bottom: 15px;
+  /* background-color: aliceblue; */
+}
+.germany {
+  margin-top: -5.8px;
+}
+.belgium {
+  margin-top: 5px;
+}
+.Albania {
+  margin-top: 6px;
+}
+.input-box {
+  width: 30%;
+}
+.title {
+  /* margin-left: -50px; */
+  flex-grow: 1;
+  /* min-width: 100px; */
+  color: white;
+}
+.container {
+  display: flex;
+}
+.color-switch {
+  color: white;
+}
+.botton {
+  margin-top: 1px;
+  margin-right: 9.5px;
+  width: 11px;
+  height: 15px;
+}
+.flex-container2 {
+  display: flex;
+  margin-top: 20px;
+}
+#search {
+  background-color: #282c34;
+  border-radius: 5px;
+  flex-grow: 1;
+  /* margin-right: 49%;   */
+  padding: 17px;
+  width: 100%;
+}
+.dropdown {
+  background-color: #282c34;
+  width: 20%;
+  border-radius: 5px;
+  padding: 7px;
+  /* margin-right: 11%; */
+}
+.dropdown-container {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.dropdown-items {
+  background-color: #282c34;
+  width: 20%;
+  border-radius: 5px;
+  padding: 7px;
+}
+.select {
+  width: 100%;
+  color: white;
+  padding: 15px 10px;
+  border-style: none;
+  outline: none;
+  background-color: #282c34;
+}
+ul {
+  list-style-type: none;
+  color: white;
+}
+
+.align-right {
+  display: flex;
+  justify-content: end;
+}
+.country-container {
+  display: flex;
+  gap: 20px;
+}
+
+.country-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.grid-container {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 3.5fr);
+  grid-template-rows: repeat (100px);
+  gap: 20px;
+}
+.us-flag {
+  padding-bottom: 16px;
+}
+.country-text {
+  margin-top: -15px;
+}
+.text {
+  margin-top: -15px;
+}
